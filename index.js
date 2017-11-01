@@ -1,7 +1,7 @@
-import * as express from 'express';
-import socketio from 'socket.io';
-import * as bodyParser from 'body-parser';
-import http from 'http';
+let express = require('express');
+let socketio = require('socket.io');
+let bodyParser = require('body-parser');
+let http = require('http');
 
 let app = express();
 
